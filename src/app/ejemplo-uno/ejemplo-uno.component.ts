@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+
+let count = 0;document.addEventListener('click', () =>
+console.log(`Clicked ${++count} times with js`));
+
 @Component({
   selector: 'app-ejemplo-uno',
   templateUrl: './ejemplo-uno.component.html',
